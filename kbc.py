@@ -3,11 +3,11 @@ money =[1000,2000,3000,5000,10000,20000,40000,80000,160000,320000,640000,1250000
 #function to print the money
 def win_money(correct_answer):
 		print(money[correct_answer-1])
-		if money[correct_answer-1]==10000
+		if money[correct_answer-1]==10000:
 			print("Congrats!Aapka Padaav pura ho gaya hai.")
-		elif money[correct_answer-1]==320000
+		elif money[correct_answer-1]==320000:
 			print("Congrats! Aapka dusra Padaav pura ho gaya hai.")
-		elif money[correct_answer-1]==10000000
+		elif money[correct_answer-1]==10000000:
 			print("Congrats! Aap ek crore rupaye jeet gaye hai.")
 
 
